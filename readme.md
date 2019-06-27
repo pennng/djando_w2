@@ -48,17 +48,10 @@ def get_current_time():
 </body>
 </html>
 ```
-在/mysite/setting.py文件里配置模版目录
+在/mysite/setting.py文件里配置模版目录，TEMPLATES "DIRS"里添加
 添加
 ```python
-TEMPLATES = [
-    {
-        'DIRS': [
             BASE_DIR + "/polls/templates"
-        ],
-    },
-]
-
 ```
 
 ## 4. 创建视图
