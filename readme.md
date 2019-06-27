@@ -7,7 +7,7 @@ git clone https://github.com/pennng/djando_w2
 
 ```
 
-## 2. Test Driven Development (TDD) 后端开发
+## 2. "M" Test Driven Development (TDD) 后端开发
 撰写测试用例, 允许2秒误差 In tests.py  
 ```python
 from django.test import TestCase
@@ -34,7 +34,7 @@ def get_current_time():
 ```
 再次运行测试时成果。如有需要，迭代测试与模型
 
-## 3. 创建前端模板
+## 3. "T" 创建前端模板
 在polls目录下创建文件夹 /templates
 新建模版文件 time.html
 ```html
@@ -53,7 +53,7 @@ def get_current_time():
             BASE_DIR + "/polls/templates"
 ```
 
-## 4. 创建视图
+## 4. "V" 创建视图
 在views.py
 ```python
 from django.shortcuts import render
